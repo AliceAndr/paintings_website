@@ -8,6 +8,7 @@ import calc from "./modules/calc";
 import filter from "./modules/filter";
 import pictureExample from "./modules/pictureExample";
 import accordion from "./modules/accordion";
+import burger from "./modules/burger";
 
 modals();
 sliders('.feedback-slider-item', '', '.main-prev-btn', '.main-next-btn');
@@ -21,3 +22,4 @@ calc('#size', '#material', '#options', '.promocode', '.calc-price');
 filter();
 pictureExample('.sizes-block');
 accordion('.accordion-heading', '.accordion-block');
+burger('.burger-menu', '.burger');
